@@ -176,6 +176,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.1"
+  system_language:
+    dependency: "direct main"
+    description:
+      name: system_language
+      sha256: "99a228f18c4a4eb41999a25764f7cfe8d99c403c32826a4b4c4da9f0eb2385d4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
   term_glyph:
     dependency: transitive
     description:
