@@ -180,10 +180,10 @@ packages:
     dependency: "direct main"
     description:
       name: system_language
-      sha256: "99a228f18c4a4eb41999a25764f7cfe8d99c403c32826a4b4c4da9f0eb2385d4"
+      sha256: "4412d02280aa2f28d059b2e71d9b957b2db43815c7917a337f0a02bd653a0f42"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.1"
+    version: "0.3.1"
   term_glyph:
     dependency: transitive
     description:

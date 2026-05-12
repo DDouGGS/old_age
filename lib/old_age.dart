@@ -1,22 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:system_language/system_language.dart';
-import 'package:old_age/language/pt_br.dart';
+import 'package:old_age/main.dart';
 
-final SystemLanguage sl = SystemLanguage();
-
-void main() {
-  sl.addBook(Ptbr(), 'pt-br');
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class OldAge extends StatelessWidget {
+  const OldAge({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: sl.out('title0001'),
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -35,7 +27,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: sl.out('title0002')),
     );
   }
 }
