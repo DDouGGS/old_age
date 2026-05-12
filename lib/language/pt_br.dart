@@ -6,9 +6,10 @@ class Ptbr extends Book {
     super.texts = {
       'language': 'Português',
       'language_code': 'pt-br',
-      'title0001': 'Longevidade',
+      'title0001': 'Longevidade', // titles
       'title0002': 'Home - Longevidade',
-      'button0001': 'Adicionar',
+      'button0001': 'Adicionar', // buttons
+      'text0001': 'Você apertou o botão essas vezes:', // texts
     };
   }
 }
